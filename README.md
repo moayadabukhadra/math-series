@@ -9,3 +9,4 @@ sum_series function : this function return the nth number from any series.
 
 ### pull rquest Link:              
 [pullrequest](https://github.com/moayadabukhadra/math-series/pull/2)
+

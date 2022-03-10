@@ -1,5 +1,6 @@
 
 def fibonacci( n ):
+        "this function returns the nth value in the fibonacci series"
         if n <= 1 :
                 return 0
         if n == 2:
@@ -15,7 +16,7 @@ def fibonacci( n ):
        
         return n
  
-nth_fibo = fibonacci( 3 ) 
+nth_fibo = fibonacci( 1 ) 
 print(nth_fibo)
 
 
@@ -25,6 +26,7 @@ print(nth_fibo)
 
 
 def locas( n ):
+        "this function returns the nth number is the lucas numbers"
         if n <= 1 :
                 return 2
         if n == 2:
@@ -49,6 +51,8 @@ print (nth_locas)
 
 
 def sum_series(n,x=0,y=1):
+        "this function return the nth number from any series."
+        "the tow optional values (x,y) detrmine what is the series"
         if n <= 1 :
                 return x
         if n == 2:

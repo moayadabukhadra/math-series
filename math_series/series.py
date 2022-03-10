@@ -26,7 +26,7 @@ print(nth_fibo)
 
 
 def locas( n ):
-        "this function returns the nth number is the lucas numbers"
+        "this function returns the nth number in the lucas numbers"
         if n <= 1 :
                 return 2
         if n == 2:
